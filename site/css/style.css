@@ -364,6 +364,7 @@ p {
 /*------ list-services ------- */
 .list-services .thumbnail-1 {
   background: #000000;
+  height:510px;
   padding: 10px;
 }
 .list-services a {
@@ -372,9 +373,6 @@ p {
 }
 .list-services p {
   padding-bottom: 20px;
-}
-.list-services section {
-  padding: 0 20px;
 }
 .list-services li {
   margin-bottom: 30px;
