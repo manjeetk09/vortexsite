@@ -1716,3 +1716,25 @@ h7 {
   height: 50px;
   text-align: center;
 }
+
+.navsponsor ul {
+  list-style-type: none;
+}
+
+.navsponsor li {
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: 40px;
+  height: 100px;
+  padding-top: 20px;
+}
+
+.navsponsor li a {
+  background-color: transparent;
+  color: #e85356;
+}
+
+.navsponsor li a:hover {
+  background-color: transparent;
+  color: #fff;
+}
