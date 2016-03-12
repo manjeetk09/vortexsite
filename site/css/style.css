@@ -1718,8 +1718,8 @@ h7 {
   text-align: center;
 }
 
-.navsponsor ul {
-  list-style-type: none;
+.navsponsor div {
+  transition: all 0.3s ease;
 }
 
 .navsponsor div {
