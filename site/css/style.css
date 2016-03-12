@@ -1726,7 +1726,7 @@ h7 {
   margin-right: 0;
   margin-left: 0;
   font-size: 30px;
-  height: 50px;
+  height: 45px;
   padding-top: 20px;
   background-color: #f2f2f2;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
@@ -1752,11 +1752,3 @@ h7 {
 .navsponsor div:hover a {
     color: #e85356;
 } 
-.navsponsor div:nth-child(1):hover {
-    background-color: #e85356;
-    cursor: auto;
-    color: #f2f2f2;
-}
-.navsponsor div:nth-child(1):hover a {
-    color: #f2f2f2;
-}
