@@ -1720,8 +1720,6 @@ h7 {
 
 .navsponsor div {
   transition: all 0.7s ease;
-    margin-left: 5px;
-    margin-right: 5px;
 }
 
 .navsponsor div {
@@ -1730,8 +1728,7 @@ h7 {
   font-size: 30px;
   height: 45px;
   padding-top: 20px;
-  background-color: #e85356;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 100;
 }
 .navsponsor span {
   text-align: center;
@@ -1741,7 +1738,7 @@ h7 {
   text-align: center;
 }
 .navsponsor div a {
-    color: #e85356;
+    color: #000;
 }
 .navsponsor div:hover {
     background-color: #e85356;
