@@ -1719,7 +1719,9 @@ h7 {
 }
 
 .navsponsor div {
-  transition: all 0.3s ease;
+  transition: all 0.7s ease;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .navsponsor div {
@@ -1728,27 +1730,27 @@ h7 {
   font-size: 30px;
   height: 45px;
   padding-top: 20px;
-  background-color: #f2f2f2;
+  background-color: #e85356;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 .navsponsor span {
   text-align: center;
 }
 .navsponsor div {
-  background-color: #e85356;
+  background-color: #f2f2f2;
   text-align: center;
 }
 .navsponsor div a {
-    color: #f2f2f2;
+    color: #e85356;
 }
 .navsponsor div:hover {
-    background-color: #f2f2f2;
+    background-color: #e85356;
     cursor: pointer;
-    color: #e85356;
+    color: #f2f2f2;
 }
 .navsponsor a:hover {
     text-decoration: none;
 }
 .navsponsor div:hover a {
-    color: #e85356;
+    color: #f2f2f2;
 } 
