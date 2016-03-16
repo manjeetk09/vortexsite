@@ -22,7 +22,6 @@ $overlay7.append($(".lbContent7"));
 $overlay8.append($(".lbContent8"));
 $overlay9.append($(".lbContent9"));
 
-console.log("manjeet");
 ///////////////////////////////////////////////////////////////////////// overlay1
 
 $(".eventsdetailed1 a").click(function(event) {
