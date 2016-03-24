@@ -1769,3 +1769,14 @@ h7 {
     text-align: center;
     height: 25px;
 }
+
+.eventButton {
+    float:left;
+    width: 20%;
+    margin-left: 10%;
+}
+.eventButton2 {
+    float:right;
+    width: 20%;
+    margin-right: 10%;
+}
