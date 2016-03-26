@@ -998,7 +998,7 @@ footer {
   }
   .navbar_ .nav-collapse_ {
     position: absolute;
-    left: auto;
+    left: 0px;
     top: 105px;
     right: 0;
   }
