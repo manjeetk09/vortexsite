@@ -73,7 +73,7 @@ header {
 .navbar_ {
   margin: 0;
   position:relative;
-  left:-30px;
+  left:-100px;
 }
 .navbar_ .navbar-inner_ {
   padding: 0;
