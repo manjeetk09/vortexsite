@@ -90,7 +90,7 @@ header {
   margin-top: 8px;
   padding: 0;
   z-index: 10;
-  float: right;
+  float: left;
 }
 .nav-collapse_ .nav li {
   margin-left: -25%;
