@@ -72,7 +72,6 @@ header {
 /* navbar */
 .navbar_ {
   margin: 0;
-  position: relative;
 }
 .navbar_ .navbar-inner_ {
   padding: 0;
