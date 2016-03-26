@@ -93,7 +93,7 @@ header {
   float: right;
 }
 .nav-collapse_ .nav li {
-  margin: 0;
+  margin-left: -7%;
   padding: 0;
   position: relative;
   zoom: 1;
