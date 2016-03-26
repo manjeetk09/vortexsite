@@ -211,7 +211,7 @@ header {
   font-size: 0;
   line-height: 0;
   padding: 0px 0 0 0px;
-  margin: -20px;
+  margin-left: -20px;
 }
 .navbar_ .brand_ h1 {
   font-size: 0;
