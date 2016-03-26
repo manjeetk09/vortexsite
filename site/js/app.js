@@ -24,18 +24,12 @@ $overlay9.append($(".lbContent9"));
 
 ///////////////////////////////////////////////////////////////////////// overlay1
 
-$(".eventsdetailed1 a").click(function(event) {
+$("#eventButton1").click(function(event) {
 	event.preventDefault();
 	$(".overlaydiv").append($overlay1);
 	$overlay1.show();
 	
 });
-
-
-$(".homebtn1 a").click(function(event) {
-	$("#bplanbtn").trigger("click");
-});
-
 
 $overlay1.click(function() {
 		// hide the overlay.
@@ -50,7 +44,7 @@ $(".lbButton2").click(function() {
 
 ///////////////////////////////////////////////////////////////////////// overlay2
 
-$(".eventsdetailed2 a").click(function(event) {
+$("#eventButton2").click(function(event) {
 	event.preventDefault();
 	$("body").append($overlay2);
 	$overlay2.show();
@@ -68,7 +62,7 @@ $(".lbButton2").click(function() {
 
 ///////////////////////////////////////////////////////////////////////// overlay3
 
-$(".eventsdetailed3 a").click(function(event) {
+$("#eventButton3").click(function(event) {
 	event.preventDefault();
 	$("body").append($overlay3);
 	$overlay3.show();
@@ -86,7 +80,7 @@ $(".lbButton2").click(function() {
 
 ///////////////////////////////////////////////////////////////////////// overlay4
 
-$(".eventsdetailed4 a").click(function(event) {
+$("#eventButton4").click(function(event) {
 	event.preventDefault();
 	$("body").append($overlay4);
 	$overlay4.show();
@@ -104,7 +98,7 @@ $(".lbButton2").click(function() {
 
 ///////////////////////////////////////////////////////////////////////// overlay5
 
-$(".eventsdetailed5 a").click(function(event) {
+$("#eventButton5").click(function(event) {
 	event.preventDefault();
 	$("body").append($overlay5);
 	$overlay5.show();
