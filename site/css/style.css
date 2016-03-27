@@ -1797,3 +1797,16 @@ h7 {
     width: 20%;
     margin-right: 10%;
 }
+.noDecorationLink a
+{
+    text-decoration: none;
+}
+.workshopRow {
+    background-color: #f2f2f2;
+}
+.workshopRow div {
+    display: inline;
+}
+.workshopRow img {
+    width: 11.111%;
+}
