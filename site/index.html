@@ -40,7 +40,46 @@
      jQuery('.magnifier').touchTouch();
     jQuery('.spinner').animate({'opacity':0},1000,'easeOutCubic',function (){jQuery(this).css('display','none')});
   		  });
-
+function hover(element) {
+    if(element.getAttribute('src')==='img/workshopLogo/augmented.png')
+    element.setAttribute('src', 'img/workshopLogo/augmented1.png');
+    else if(element.getAttribute('src')==='img/workshopLogo/bigdata.png')
+    element.setAttribute('src', 'img/workshopLogo/bigdata1.png');
+    else if(element.getAttribute('src')==='img/workshopLogo/cloud.png')
+    element.setAttribute('src', 'img/workshopLogo/cloud1.png');
+    else if(element.getAttribute('src')==='img/workshopLogo/cyber.png')
+    element.setAttribute('src', 'img/workshopLogo/cyber1.png');
+    else if(element.getAttribute('src')==='img/workshopLogo/hack.png')
+    element.setAttribute('src', 'img/workshopLogo/hack1.png');
+    else if(element.getAttribute('src')==='img/workshopLogo/iot.png')
+    element.setAttribute('src', 'img/workshopLogo/iot1.png');
+    else if(element.getAttribute('src')==='img/workshopLogo/robo.png')
+    element.setAttribute('src', 'img/workshopLogo/robo1.png');
+    else if(element.getAttribute('src')==='img/workshopLogo/android.png')
+    element.setAttribute('src', 'img/workshopLogo/android1.png');
+    else if(element.getAttribute('src')==='img/workshopLogo/webdevelp.png')
+    element.setAttribute('src', 'img/workshopLogo/webdevelp1.png');
+}
+        function unhover(element) {
+    if(element.getAttribute('src')==='img/workshopLogo/augmented1.png')
+    element.setAttribute('src', 'img/workshopLogo/augmented.png');
+    else if(element.getAttribute('src')==='img/workshopLogo/bigdata1.png')
+    element.setAttribute('src', 'img/workshopLogo/bigdata.png');
+    else if(element.getAttribute('src')==='img/workshopLogo/cloud1.png')
+    element.setAttribute('src', 'img/workshopLogo/cloud.png');
+    else if(element.getAttribute('src')==='img/workshopLogo/cyber1.png')
+    element.setAttribute('src', 'img/workshopLogo/cyber.png');
+    else if(element.getAttribute('src')==='img/workshopLogo/hack1.png')
+    element.setAttribute('src', 'img/workshopLogo/hack.png');
+    else if(element.getAttribute('src')==='img/workshopLogo/iot1.png')
+    element.setAttribute('src', 'img/workshopLogo/iot.png');
+    else if(element.getAttribute('src')==='img/workshopLogo/robo1.png')
+    element.setAttribute('src', 'img/workshopLogo/robo.png');
+    else if(element.getAttribute('src')==='img/workshopLogo/android1.png')
+    element.setAttribute('src', 'img/workshopLogo/android.png');
+    else if(element.getAttribute('src')==='img/workshopLogo/webdevelp1.png')
+    element.setAttribute('src', 'img/workshopLogo/webdevelp.png');
+}
 	</script>
 
 	<!--[if lt IE 8]>
@@ -168,15 +207,15 @@
       </div>
     </div><br><br>
     <div class="workshopRow">
-        <div><img src=img/workshopLogo/android.png alt="" /></div>
-        <div><img src=img/workshopLogo/augmented.png alt="" /></div>
-        <div><img src=img/workshopLogo/bigdata.png alt="" /></div>
-        <div><img src=img/workshopLogo/cloud.png alt="" /></div>
-        <div><img src=img/workshopLogo/cyber.png alt="" /></div>
-        <div><img src=img/workshopLogo/hack.png alt="" /></div>
-        <div><img src=img/workshopLogo/iot.png alt="" /></div>
-        <div><img src=img/workshopLogo/robo.png alt="" /></div>
-        <div><img src=img/workshopLogo/webdevelp.png alt="" /></div>
+        <div style="margin-left:5%;"><img src=img/workshopLogo/android.png alt="" onmouseover="hover(this);" onmouseout="unhover(this);"/></div>
+        <div><img src=img/workshopLogo/augmented.png alt="" onmouseover="hover(this);" onmouseout="unhover(this);"/></div>
+        <div><img src=img/workshopLogo/bigdata.png alt="" onmouseover="hover(this);" onmouseout="unhover(this);"/></div>
+        <div><img src=img/workshopLogo/cloud.png alt="" onmouseover="hover(this);" onmouseout="unhover(this);"/></div>
+        <div><img src=img/workshopLogo/cyber.png alt="" onmouseover="hover(this);" onmouseout="unhover(this);"/></div>
+        <div><img src=img/workshopLogo/hack.png alt="" onmouseover="hover(this);" onmouseout="unhover(this);"/></div>
+        <div><img src=img/workshopLogo/iot.png alt="" onmouseover="hover(this);" onmouseout="unhover(this);"/></div>
+        <div><img src=img/workshopLogo/robo.png alt="" onmouseover="hover(this);" onmouseout="unhover(this);"/></div>
+        <div><img src=img/workshopLogo/webdevelp.png alt="" onmouseover="hover(this);" onmouseout="unhover(this);"/></div>
     </div>
     <div class="container">
       <div class="row">

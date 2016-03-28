@@ -1810,10 +1810,12 @@ h7 {
 }
 .workshopRow div {
     display: inline-block;
-    width: 10.9%;
+    width: 10%;
     height: auto;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .workshopRow img {
   display: inline-block;
