@@ -134,7 +134,7 @@ $(".lbButton2").click(function() {
 
 ///////////////////////////////////////////////////////////////////////// overlay7
 
-$(".eventsdetailed7 a").click(function(event) {
+$("#eventButton7").click(function(event) {
 	event.preventDefault();
 	$("body").append($overlay7);
 	$overlay7.show();
