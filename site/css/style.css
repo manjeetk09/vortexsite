@@ -93,8 +93,10 @@ header {
   z-index: 10;
   margin-left:25%;
 }
+@media (max-width: 320px) {
+  
 .nav-collapse_ .nav li {
-  margin-left: -50%;
+  margin-left: -75%;
   padding: 0;
   position: relative;
   zoom: 1;
@@ -1214,7 +1216,6 @@ footer {
     width: 100%;
   }
 }
-@media (max-width: 480px) {
   .list-social {
     float: none !important;
   }
