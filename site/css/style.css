@@ -1806,10 +1806,14 @@ h7 {
 }
 .workshopRow div {
     display: inline-block;
-    width: 10.9%;
+    width: 9.8%;
     height: auto;
 }
 .workshopRow img {
   display: block;
+    max-height: 100px;
+    max-width: 180px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
