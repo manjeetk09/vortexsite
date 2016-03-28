@@ -1254,11 +1254,11 @@ footer {
 }
 @media (max-width: 320px) {
   .brand_ a img {
-    width: 20%;
+    width: 100px;
     height: auto;
   }
    .brand1_ a img {
-    width: 20%;
+    width: 100px;
     height: auto;
   }
   .list-photo {
