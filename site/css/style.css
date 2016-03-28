@@ -1803,16 +1803,20 @@ h7 {
 }
 .workshopRow {
     background-color: #f2f2f2;
+    display: inline-block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .workshopRow div {
     display: inline-block;
-    width: 9.8%;
+    width: 10.9%;
     height: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 .workshopRow img {
-  display: block;
-    max-height: 100px;
-    max-width: 180px;
+  display: inline-block;
     margin-left: auto;
     margin-right: auto;
 
