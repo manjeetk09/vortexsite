@@ -991,7 +991,7 @@ footer {
     float:left;
   }
   .img-indent img {
-    width: 100%;
+    width: 90%;
   }
   #contact-form input,
   #contact-form textarea {
@@ -1207,7 +1207,7 @@ footer {
     float: left;
   }
   .img-indent img {
-    width: 100%;
+    width: 90%;
   }
 }
 @media (max-width: 480px) {
