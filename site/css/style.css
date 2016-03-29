@@ -988,7 +988,7 @@ footer {
     width: 100%;
   }
   .img-indent {
-    float: none;
+    float:left;
   }
   .img-indent img {
     width: 100%;
@@ -1204,7 +1204,7 @@ footer {
     margin-left: 0px;
   }
   .img-indent {
-    float: none;
+    float: left;
   }
   .img-indent img {
     width: 100%;
