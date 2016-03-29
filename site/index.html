@@ -42,7 +42,7 @@
   		  });
 function hover(element) {
     if(element.getAttribute('src')==='img/workshopLogo/augmented.png')
-    element.setAttribute('src', 'img/workshopLogo/augmented1.png');
+      element.setAttribute('src', 'img/workshopLogo/augmented1.png');
     else if(element.getAttribute('src')==='img/workshopLogo/bigdata.png')
     element.setAttribute('src', 'img/workshopLogo/bigdata1.png');
     else if(element.getAttribute('src')==='img/workshopLogo/cloud.png')
@@ -159,29 +159,31 @@ function hover(element) {
           <ul class="thumbnailmod">
             <li class="spa252">
               <div class="thumbnailmod">
-                <div class="HChead"><h3 class="color-3">B-Plan</h3></div>
-                <img class="img-responsive" src="img/page1-img1.jpg" alt="">
-                <section class="homebtn1" ><div class="HCdata"> <strong>Bring out the businessman in you</strong>
-                      <p>An event to discover the next big idea that could dominate the market...</p></div>
-                      <div class="readmorebtn"><a href="events.html#b-plan" class="btn btn-1">Read More</a></div> </section>
-              </div>
-            </li>
-            <li class="spa252">
-              <div class="thumbnailmod">
-                <div class="HChead"><h3 class="color-3">Imagica</h3></div>
-                <img class="img-responsive" src="img/page1-img2.jpg" alt="">
-                <section class="homebtn2" ><div class="HCdata"> <strong>A workshop on image processing</strong>
-                      <p>We teach you all the secrets of image processing using MATLAB</p></div>
-                      <div class="readmorebtn"><a href="workshop.html#imageproc" class="btn btn-1">Read More</a></div> </section>
-              </div>
-            </li>
-            <li class="spa252">
-              <div class="thumbnailmod">
-                <div class="HChead"><h3 class="color-3">Hackathon</h3></div>
+                <div class="HChead"><h3 class="color-3">Hackathon <br> By HackerEarth</h3></div>
                 <img class="img-responsive" src="img/page1-img3.jpg" alt="">
                 <section class="homebtn3" ><div class="HCdata"> <strong>Ready! Set! Code!</strong>
                       <p>Do you have what it takes to survive the ultimate coding showdown?</p></div>
                       <div class="readmorebtn"><a href="events.html#code" class="btn btn-1">Read More</a></div> </section>
+              </div>
+            </li>
+
+            <li class="spa252">
+              <div class="thumbnailmod">
+                <div class="HChead"><h3 class="title-1 extra color-3">Appathon <br> By Samsung India</h3></div>
+                <img class="img-responsive" src="img/page1-img4.jpg" alt="">
+                <section class="homebtn4" ><div class="HCdata">
+                      <p>A contest for the lovers of android, <br> aimed to invent, design and develop a prototype mobile app.  </p></div>
+                      <div class="readmorebtn"><a href="events.html" class="btn btn-1">Read More</a></div> </section>
+              </div>
+            </li>
+
+            <li class="spa252">
+              <div class="thumbnailmod">
+                <div class="HChead"><h3 class="title-1 extra color-3">Future <br> Avenues</h3></div>
+                <img class="img-responsive" src="img/page1-img4.jpg" alt="">
+                <section class="homebtn4" ><div class="HCdata">
+                      <p>Flex your creative muscles, get your tech sense racing, and take a stroll in the future in your time machines.</p></div>
+                      <div class="readmorebtn"><a href="events.html#future" class="btn btn-1">Read More</a></div> </section>
               </div>
             </li>
             <li class="spa252">
@@ -195,11 +197,20 @@ function hover(element) {
             </li>
             <li class="spa252">
               <div class="thumbnailmod">
-                <div class="HChead"><h3 class="title-1 extra color-3">Workshops</h3></div>
-                <img class="img-responsive" src="img/page1-img4a.jpg" alt="">
-                <section class="homebtn5" ><div class="HCdata"> <strong>Do you want to learn something new?</strong>
-                      <p>Learn Android development, ethical hacking and much more...</p></div>
-                      <div class="readmorebtn"><a href="workshop.html" class="btn btn-1">Read More</a></div> </section>
+                <div class="HChead"><h3 class="title-1 extra color-3">Triwizard</h3></div>
+                <img class="img-responsive" src="img/page1-img4.jpg" alt="">
+                <section class="homebtn4" ><div class="HCdata">
+                      <p>Can you survive three extremely dangerous tasks? <br> Well there is no danger here except the ticking clock....</p></div>
+                      <div class="readmorebtn"><a href="events.html#triwizard" class="btn btn-1">Read More</a></div> </section>
+              </div>
+            </li>
+            <li class="spa252">
+              <div class="thumbnailmod">
+                <div class="HChead"><h3 class="title-1 extra color-3">Treasure Hunt</h3></div>
+                <img class="img-responsive" src="img/page1-img4.jpg" alt="">
+                <section class="homebtn4" ><div class="HCdata">
+                      <p>Run around IIT campus to find hidden treasures by deciphering clues based on your technical knowledge and general knowledge.</p></div>
+                      <div class="readmorebtn"><a href="events.html#treasurehunt" class="btn btn-1">Read More</a></div> </section>
               </div>
             </li>
           </ul>
@@ -207,15 +218,16 @@ function hover(element) {
       </div>
     </div><br><br>
     <div class="workshopRow">
-        <div style="margin-left:5%;"><a href="workshop.html/#android"><img src=img/workshopLogo/android.png alt="" onmouseover="hover(this);" onmouseout="unhover(this);"/></a></div>
+        <h3 id="homeWorkshop"><a style="text-decoration: none;" href="workshop.html" target="_blank">Workshops</a></h3>
+        <div style="margin-left:10%;"><a href="workshop.html/#android"><img src=img/workshopLogo/android.png alt="" onmouseover="hover(this);" onmouseout="unhover(this);"/></a></div>
         <div><a href="workshop.html#augmented"><img src=img/workshopLogo/augmented.png alt="" onmouseover="hover(this);" onmouseout="unhover(this);"/></a></div>
         <div><a href="workshop.html#bigdata"><img src=img/workshopLogo/bigdata.png alt="" onmouseover="hover(this);" onmouseout="unhover(this);"/></a></div>
         <div><a href="workshop.html#cloud"><img src=img/workshopLogo/cloud.png alt="" onmouseover="hover(this);" onmouseout="unhover(this);"/></a></div>
-        <div><a href="workshop.html#cyber"><img src=img/workshopLogo/cyber.png alt="" onmouseover="hover(this);" onmouseout="unhover(this);"/></a></div>
-        <div><a href="workshop.html#hack"><img src=img/workshopLogo/hack.png alt="" onmouseover="hover(this);" onmouseout="unhover(this);"/></a></div>
+        <div style="margin-left:10%;"><a href="workshop.html#cyber"><img src=img/workshopLogo/cyber.png alt="" onmouseover="hover(this);" onmouseout="unhover(this);"/></a></div>
+        <div ><a href="workshop.html#hack"><img src=img/workshopLogo/hack.png alt="" onmouseover="hover(this);" onmouseout="unhover(this);"/></a></div>
         <div><a href="workshop.html#iot"><img src=img/workshopLogo/iot.png alt="" onmouseover="hover(this);" onmouseout="unhover(this);"/></a></div>
         <div><a href="workshop.html#robo"><img src=img/workshopLogo/robo.png alt="" onmouseover="hover(this);" onmouseout="unhover(this);"/></a></div>
-        <div><a href="workshop.html#webdevelp"><img src=img/workshopLogo/webdevelp.png alt="" onmouseover="hover(this);" onmouseout="unhover(this);"/></a></div>
+        <!--<div><a href="workshop.html#webdevelp"><img src=img/workshopLogo/webdevelp.png alt="" onmouseover="hover(this);" onmouseout="unhover(this);"/></a></div>-->
     </div>
     <div class="container">
       <div class="row-fluid">
