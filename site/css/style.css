@@ -15,11 +15,9 @@ a[href^="tel:"] {
   color: #ED7F81;
 }
 .img-indent {
-  margin: 0px 30px 0 0;
   float: left;
 }
 .img-indent1 {
-  margin: 1px 29px 16px 0;
   float: left;
 }
 .wrapper {
@@ -991,7 +989,6 @@ footer {
   }
   .img-indent {
     float: none;
-    margin: 0 0 18px 0;
   }
   .img-indent img {
     width: 100%;
@@ -1208,7 +1205,6 @@ footer {
   }
   .img-indent {
     float: none;
-    margin: 0 0 16px 0;
   }
   .img-indent img {
     width: 100%;
@@ -1276,7 +1272,6 @@ footer {
   }
   .img-indent1 {
     float: none;
-    margin: 1px 0 16px;
   }
   .overflow.extra {
     overflow: visible;
