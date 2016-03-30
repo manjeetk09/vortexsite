@@ -1805,19 +1805,26 @@ h7 {
     margin-left: auto;
     margin-right: auto;
 }
+
 .workshopRow div {
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*.workshopRow div {
     display: inline-block;
     width: 22%;
     height: auto;
     margin-right: auto;
     margin-top: 40px;
     margin-bottom: 40px;
-}
-.workshopRow img {
-  display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-
+}*/
+.workshopRow div img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #homeWorkshop {
@@ -1833,7 +1840,7 @@ h7 {
 }
 
 
-@media (min-width: 700px) {
+/*@media (min-width: 700px) {
   .logoworkshopfirst {
     margin-left:10%;
   }
@@ -1843,4 +1850,19 @@ h7 {
   .logoworkshopfirst {
     margin-left:8%;
   }
+}
+*/
+.workshopRow p a {
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 30px;
+  color: #7f7f7f;
+}
+
+/*.workshopRow p {
+  margin-left: 8px;
+}*/
+
+.workshopRow p a:hover {
+  color: #e75d5f;
 }
