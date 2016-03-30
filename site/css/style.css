@@ -1251,8 +1251,9 @@ footer {
 @media (max-width: 320px) {
   .brand_ a img {
     width: 10%;
-    height: auto;
   }
+  
+    height: auto;
    .brand1_ a img {
     width: 10%;
     height: auto;
