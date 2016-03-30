@@ -1810,7 +1810,6 @@ h7 {
     width: 22%;
     height: auto;
     margin-right: auto;
-    margin-left: auto;
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -1831,4 +1830,17 @@ h7 {
 
 #homeWorkshop a:hover {
   color: #e75d5f;
+}
+
+
+@media (min-width: 700px) {
+  .logoworkshopfirst {
+    margin-left:10%;
+  }
+}
+
+@media (max-width: 700px) and (min-width: 0px) {
+  .logoworkshopfirst {
+    margin-left:8%;
+  }
 }
