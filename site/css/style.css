@@ -1248,7 +1248,7 @@ footer {
     min-height: 290px;
   }
 }
-@media all (max-width: 320px) {
+@media (max-width: 320px) {
   .brand_ a img {
     width: 10%;
     height: auto;
