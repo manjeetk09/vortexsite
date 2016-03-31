@@ -1805,6 +1805,7 @@
   }
   .workshopRow {
       background-color: #f2f2f2;
+      padding-left:20%;
       display: inline-block;
       width: 100%;
       margin-left: auto;
