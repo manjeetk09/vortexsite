@@ -1812,7 +1812,7 @@
   
   .workshopRow div {
     display: inline-block;
-    margin: auto;
+    margin: auto !important;
     text-align: center;
     margin-top: 20px;
   }
