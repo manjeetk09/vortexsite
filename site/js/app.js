@@ -13,6 +13,8 @@ var $overlay8 = $('<div id="overlay8" class="overlay" ></div>');
 var $overlay9 = $('<div id="overlay9" class="overlay" ></div>');
 var $overlaya = $('<div id="overlaya" class="overlay" ></div>');
 
+var $overlayb = $('<div id="overlayb" class="overlay" ></div>');
+
 
 $overlay1.append($(".lbContent1"));
 $overlay2.append($(".lbContent2"));
@@ -24,6 +26,8 @@ $overlay7.append($(".lbContent7"));
 $overlay8.append($(".lbContent8"));
 $overlay9.append($(".lbContent9"));
 $overlaya.append($(".lbContenta"));
+
+$overlayb.append($(".lbContentb"));
 
 
 ///////////////////////////////////////////////////////////////////////// overlay1
@@ -206,4 +210,21 @@ $overlaya.click(function() {
 $(".lbButton2").click(function() {
 		// hide the overlay.
 		$overlaya.hide();
+});
+///////////////////////////////////////////////////////////////////////// overlayb
+
+$("#eventButtonb").click(function(event) {
+	event.preventDefault();
+	$("body").append($overlayb);
+	$overlayb.show();
+});
+
+$overlayb.click(function() {
+		// hide the overlay.
+		$overlayb.hide();
+});
+
+$(".lbButton2").click(function() {
+		// hide the overlay.
+		$overlayb.hide();
 });
