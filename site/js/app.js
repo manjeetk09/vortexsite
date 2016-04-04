@@ -124,7 +124,7 @@ $(".lbButton2").click(function() {
 
 ///////////////////////////////////////////////////////////////////////// overlay6
 
-$(".eventsdetailed6 a").click(function(event) {
+$("#eventButton6").click(function(event) {
 	event.preventDefault();
 	$("body").append($overlay6);
 	$overlay6.show();
@@ -139,7 +139,6 @@ $(".lbButton2").click(function() {
 		// hide the overlay.
 		$overlay6.hide();
 });
-
 ///////////////////////////////////////////////////////////////////////// overlay7
 
 $("#eventButton7").click(function(event) {
@@ -160,7 +159,7 @@ $(".lbButton2").click(function() {
 
 ///////////////////////////////////////////////////////////////////////// overlay8
 
-$(".eventsdetailed8 a").click(function(event) {
+$("#eventButton8").click(function(event) {
 	event.preventDefault();
 	$("body").append($overlay8);
 	$overlay8.show();
@@ -175,10 +174,9 @@ $(".lbButton2").click(function() {
 		// hide the overlay.
 		$overlay8.hide();
 });
-
 ///////////////////////////////////////////////////////////////////////// overlay9
 
-$(".eventsdetailed9 a").click(function(event) {
+$(".eventsButton9 a").click(function(event) {
 	event.preventDefault();
 	$("body").append($overlay9);
 	$overlay9.show();
